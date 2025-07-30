@@ -1,10 +1,10 @@
 variable "databricks_host" {
-  default = "https://adb-637421694437244.4.azuredatabricks.net/"
+  default = "host url"
   type        = string
 }
 
 variable "databricks_token" {
-  default = "dapie55b216830d46e35021b8b7bc56bb1c0-3"
+  default = "*******************"
   type        = string
   sensitive   = true
 }
